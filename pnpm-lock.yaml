@@ -23,6 +23,9 @@ importers:
       astro:
         specifier: 5.5.5
         version: 5.5.5(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.36.0)(typescript@5.8.2)
+      optional:
+        specifier: ^0.1.4
+        version: 0.1.4
       tailwindcss:
         specifier: 4.0.17
         version: 4.0.17
@@ -1653,6 +1656,9 @@ packages:
 
   oniguruma-to-es@4.1.0:
     resolution: {integrity: sha512-SNwG909cSLo4vPyyPbU/VJkEc9WOXqu2ycBlfd1UCXLqk1IijcQktSBb2yRQ2UFPsDhpkaf+C1dtT3PkLK/yWA==}
+
+  optional@0.1.4:
+    resolution: {integrity: sha512-gtvrrCfkE08wKcgXaVwQVgwEQ8vel2dc5DDBn9RLQZ3YtmtkBss6A2HY6BnJH4N/4Ku97Ri/SF8sNWE2225WJw==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -4095,6 +4101,8 @@ snapshots:
       oniguruma-parser: 0.5.4
       regex: 6.0.1
       regex-recursion: 6.0.2
+
+  optional@0.1.4: {}
 
   optionator@0.9.4:
     dependencies:
